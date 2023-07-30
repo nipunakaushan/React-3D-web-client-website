@@ -3,8 +3,8 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 
 import dalleRoutes from './routes/dalle.routes.js';
-require("dotenv").config();
-console.log(process.env.OPENAI_API_KEY);
+
+
 
 dotenv.config();
 
